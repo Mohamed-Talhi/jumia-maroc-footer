@@ -1,0 +1,115 @@
+body {
+    background-color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+footer{
+    padding: 40px;
+}
+.footer{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #777;
+}
+
+.footer__col h1{
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #f1f1f1;
+    text-transform: uppercase;
+}
+.contcat--liste h1 {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #f1f1f1;
+    text-transform: uppercase;
+}
+.footer__img h1{
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #f1f1f1;
+    text-transform: uppercase;
+}
+.flooter__paiement h1 {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #f1f1f1;
+    text-transform: uppercase;
+}
+p{
+    font-size: 13px;
+    margin: 8px 0;
+    color: #cccccc;
+}
+p:hover{
+    color: white;
+    text-decoration: underline;
+}
+.footer_jumia{
+    display: flex;
+    gap:40px;
+}
+.contcat--liste p {
+    color:white;
+    font-weight: 500;
+}
+.img{
+    color: white;
+    display: flex;
+    gap: 80px;
+    padding:20px 0 30px 0 ;
+    border-bottom: 1px solid #777;
+}
+.img li{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+.footer__element{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.footer__element div p {
+    font-size: 12px;
+    margin: 5px 0;
+    color:#cccccc
+}
+.language-selector{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #4a4a4a;
+    padding: 15px ;
+    border-bottom: 1px solid #666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.lang-link{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    text-decoration: none;
+    color: #b3b3b3;
+
+}
+.lang-link:hover{
+    color: white;
+
+}
+.flag-icon{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.separator{
+    color:#666;
+    margin: 0 12px;
+}
